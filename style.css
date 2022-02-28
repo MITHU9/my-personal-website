@@ -46,10 +46,16 @@ section{
 .latest-work h1{
    text-align: center;
 }
-.my-work{
+.my-work img{
     float: left;
-    width: 30%;
-
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+}
+.my-work{
+    margin: auto;
+    width: 80%;
+    padding: 20px;
 }
 .latest-work{
     background-image: url("images/latest-work-bg.png");
