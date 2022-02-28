@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    font-size: 30px;
+}
+p,h2{
+    font-size: 20px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.name-highlight{
+    font-size: 50px;
+    font-weight: 700;
+    color: crimson;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(122, 13, 49),rgb(220, 43, 20));
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 6px 25px;
+}
+.header{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.biography{
+ background-image: url("images/biography-bg.png");
+ background-repeat: no-repeat;
+}
+.latest-work h1{
+   text-align: center;
+}
+.my-work{
+    float: left;
+    width: 30%;
+
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.footer{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+}
+.info{
+    margin-top: 50px;
+}
+
+.para1{
+    text-align: center;
+    margin-top: 40px;
+}
+.contact{
+    margin-top: 80px;
+    background-image: linear-gradient(crimson,red);
+    width: 500px;
+    margin-left: 400px;
+    padding: 20px 20px;
+    border-radius: 7px;
+}
+.email{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+.color{
+    color: white;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
